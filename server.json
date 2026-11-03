@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "sh.telemio/observability",
+  "title": "Telemio Observability",
+  "description": "Investigate logs, traces, metrics and production issues in Telemio via MCP.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.telemio.sh/mcp"
+    }
+  ]
+}
